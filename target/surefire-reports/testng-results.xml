@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Page Object Model" duration-ms="80314" started-at="2020-01-11T17:13:46Z" finished-at="2020-01-11T17:15:06Z">
+    <groups>
+    </groups>
+    <test name="compareTest" duration-ms="68660" started-at="2020-01-11T17:13:46Z" finished-at="2020-01-11T17:14:55Z">
+      <class name="com.techjini.testcases.comparePrice">
+        <test-method status="PASS" signature="compareTest()[pri:0, instance:com.techjini.testcases.comparePrice@17246de]" name="compareTest" duration-ms="68646" started-at="2020-01-11T22:43:46Z" finished-at="2020-01-11T22:44:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareTest -->
+      </class> <!-- com.techjini.testcases.comparePrice -->
+    </test> <!-- compareTest -->
+    <test name="reviewTest" duration-ms="11638" started-at="2020-01-11T17:14:55Z" finished-at="2020-01-11T17:15:06Z">
+      <class name="com.techjini.testcases.reviewOnTripAdvisor">
+        <test-method status="PASS" signature="writeReview()[pri:0, instance:com.techjini.testcases.reviewOnTripAdvisor@1c36524]" name="writeReview" duration-ms="11637" started-at="2020-01-11T22:44:55Z" finished-at="2020-01-11T22:45:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeReview -->
+      </class> <!-- com.techjini.testcases.reviewOnTripAdvisor -->
+    </test> <!-- reviewTest -->
+  </suite> <!-- Page Object Model -->
+</testng-results>

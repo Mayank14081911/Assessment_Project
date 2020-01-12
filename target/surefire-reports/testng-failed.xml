@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Page Object Model]">
+  <test name="reviewTest(failed)">
+    <classes>
+      <class name="com.techjini.testcases.reviewOnTripAdvisor">
+        <methods>
+          <include name="writeReview"/>
+        </methods>
+      </class> <!-- com.techjini.testcases.reviewOnTripAdvisor -->
+    </classes>
+  </test> <!-- reviewTest(failed) -->
+</suite> <!-- Failed suite [Page Object Model] -->
