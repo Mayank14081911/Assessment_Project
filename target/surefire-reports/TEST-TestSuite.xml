@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="80.283" tests="2" errors="0" skipped="0" failures="0">
+<testsuite name="TestSuite" time="22.849" tests="2" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jre1.8.0_231\bin"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\mak\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf1776520048387593483.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\mak\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf6219792368166284563.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files (x86)\Java\jre1.8.0_231\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files (x86)/Java/jre1.8.0_231/bin/client;C:/Program Files (x86)/Java/jre1.8.0_231/bin;C:/Program Files (x86)/Java/jre1.8.0_231/lib/i386;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk-13.0.1\bin;C:\WINDOWS\System32\OpenSSH\;C:\Users\mak\AppData\Local\Android\Sdk\tools;C:\Users\mak\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\nodejs\;C:\Users\mak\Downloads\apache-maven-3.6.2-bin\apache-maven-3.6.2\bin;C:\Users\mak\AppData\Local\Android\Sdk\tools\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Notepad++;C:\Users\mak\Anaconda3;C:\Users\mak\Anaconda3\Library\mingw-w64\bin;C:\Users\mak\Anaconda3\Library\usr\bin;C:\Users\mak\Anaconda3\Library\bin;C:\Users\mak\Anaconda3\Scripts;C:\Users\mak\AppData\Local\Microsoft\WindowsApps;C:\Users\mak\AppData\Roaming\npm;C:\Users\mak\AppData\Local\Programs\Python\Python38-32;C:\Users\mak\AppData\Local\Programs\Python\Python38-32\Scripts;;C:\Users\mak\Downloads\eclipse-jee-neon-3-win32\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -60,6 +60,18 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
   </properties>
-  <testcase name="compareTest" classname="com.techjini.testcases.comparePrice" time="68.646"/>
-  <testcase name="writeReview" classname="com.techjini.testcases.reviewOnTripAdvisor" time="11.637"/>
+  <testcase name="compareTest" classname="com.techjini.testcases.comparePrice" time="22.83"/>
+  <testcase name="writeReview" classname="com.techjini.testcases.reviewOnTripAdvisor" time="0.019">
+    <failure message="Session ID is null. Using WebDriver after calling quit()?&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-BNCLIHRL&apos;, ip: &apos;192.168.0.189&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.NoSuchSessionException">org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-BNCLIHRL', ip: '192.168.0.189', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at com.techjini.pages.tripAdvisorHomePage.tripHome(tripAdvisorHomePage.java:18)
+	at com.techjini.testcases.reviewOnTripAdvisor.writeReview(reviewOnTripAdvisor.java:15)
+</failure>
+  </testcase>
 </testsuite>

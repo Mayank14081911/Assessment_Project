@@ -1,21 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Page Object Model" duration-ms="80314" started-at="2020-01-11T17:13:46Z" finished-at="2020-01-11T17:15:06Z">
+  <suite name="Page Object Model" duration-ms="22932" started-at="2020-01-16T07:05:31Z" finished-at="2020-01-16T07:05:54Z">
     <groups>
     </groups>
-    <test name="compareTest" duration-ms="68660" started-at="2020-01-11T17:13:46Z" finished-at="2020-01-11T17:14:55Z">
+    <test name="compareTest" duration-ms="22864" started-at="2020-01-16T07:05:31Z" finished-at="2020-01-16T07:05:54Z">
       <class name="com.techjini.testcases.comparePrice">
-        <test-method status="PASS" signature="compareTest()[pri:0, instance:com.techjini.testcases.comparePrice@17246de]" name="compareTest" duration-ms="68646" started-at="2020-01-11T22:43:46Z" finished-at="2020-01-11T22:44:55Z">
+        <test-method status="PASS" signature="compareTest()[pri:0, instance:com.techjini.testcases.comparePrice@17246de]" name="compareTest" duration-ms="22829" started-at="2020-01-16T12:35:31Z" finished-at="2020-01-16T12:35:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- compareTest -->
       </class> <!-- com.techjini.testcases.comparePrice -->
     </test> <!-- compareTest -->
-    <test name="reviewTest" duration-ms="11638" started-at="2020-01-11T17:14:55Z" finished-at="2020-01-11T17:15:06Z">
+    <test name="reviewTest" duration-ms="20" started-at="2020-01-16T07:05:54Z" finished-at="2020-01-16T07:05:54Z">
       <class name="com.techjini.testcases.reviewOnTripAdvisor">
-        <test-method status="PASS" signature="writeReview()[pri:0, instance:com.techjini.testcases.reviewOnTripAdvisor@1c36524]" name="writeReview" duration-ms="11637" started-at="2020-01-11T22:44:55Z" finished-at="2020-01-11T22:45:06Z">
+        <test-method status="FAIL" signature="writeReview()[pri:0, instance:com.techjini.testcases.reviewOnTripAdvisor@1c36524]" name="writeReview" duration-ms="5" started-at="2020-01-16T12:35:54Z" finished-at="2020-01-16T12:35:54Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-BNCLIHRL', ip: '192.168.0.189', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-BNCLIHRL', ip: '192.168.0.189', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at com.techjini.pages.tripAdvisorHomePage.tripHome(tripAdvisorHomePage.java:18)
+	at com.techjini.testcases.reviewOnTripAdvisor.writeReview(reviewOnTripAdvisor.java:15)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- writeReview -->

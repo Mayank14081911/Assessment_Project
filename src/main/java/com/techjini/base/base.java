@@ -29,7 +29,7 @@ public class base {
 
 	}
 
-	@AfterSuite
+	
 	public static void quit() {
 		driver.quit();
 

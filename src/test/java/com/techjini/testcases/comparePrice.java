@@ -13,7 +13,6 @@ public class comparePrice {
 		HomePage p = new HomePage();
 		p.searchItem();
 		
-
 	}
 
 }

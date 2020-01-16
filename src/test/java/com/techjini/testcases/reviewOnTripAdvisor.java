@@ -8,14 +8,12 @@ import com.techjini.pages.tripAdvisorHomePage;
 
 public class reviewOnTripAdvisor {
 
-	
 	@Test
-	public void writeReview(){
+	public void writeReview() {
 		tripAdvisorHomePage p1 = new tripAdvisorHomePage();
 		p1.tripHome();
-		
-		
+		base.quit();
+
 	}
 
 }
-

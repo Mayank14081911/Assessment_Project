@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Page Object Model" duration-ms="41703" started-at="2020-01-12T18:42:42Z" finished-at="2020-01-12T18:43:23Z">
+  <suite name="Page Object Model" duration-ms="43840" started-at="2020-01-16T07:08:35Z" finished-at="2020-01-16T07:09:19Z">
     <groups>
     </groups>
-    <test name="compareTest" duration-ms="22761" started-at="2020-01-12T18:42:42Z" finished-at="2020-01-12T18:43:05Z">
+    <test name="compareTest" duration-ms="21837" started-at="2020-01-16T07:08:35Z" finished-at="2020-01-16T07:08:57Z">
       <class name="com.techjini.testcases.comparePrice">
-        <test-method status="PASS" signature="compareTest()[pri:0, instance:com.techjini.testcases.comparePrice@153acfe]" name="compareTest" duration-ms="22738" started-at="2020-01-13T00:12:42Z" finished-at="2020-01-13T00:13:05Z">
+        <test-method status="PASS" signature="compareTest()[pri:0, instance:com.techjini.testcases.comparePrice@153acfe]" name="compareTest" duration-ms="21814" started-at="2020-01-16T12:38:35Z" finished-at="2020-01-16T12:38:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- compareTest -->
       </class> <!-- com.techjini.testcases.comparePrice -->
     </test> <!-- compareTest -->
-    <test name="reviewTest" duration-ms="18911" started-at="2020-01-12T18:43:05Z" finished-at="2020-01-12T18:43:23Z">
+    <test name="reviewTest" duration-ms="21971" started-at="2020-01-16T07:08:57Z" finished-at="2020-01-16T07:09:19Z">
       <class name="com.techjini.testcases.reviewOnTripAdvisor">
-        <test-method status="PASS" signature="writeReview()[pri:0, instance:com.techjini.testcases.reviewOnTripAdvisor@1fa1d9b]" name="writeReview" duration-ms="18908" started-at="2020-01-13T00:13:05Z" finished-at="2020-01-13T00:13:23Z">
+        <test-method status="PASS" signature="writeReview()[pri:0, instance:com.techjini.testcases.reviewOnTripAdvisor@1fa1d9b]" name="writeReview" duration-ms="21968" started-at="2020-01-16T12:38:57Z" finished-at="2020-01-16T12:39:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- writeReview -->
